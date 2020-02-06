@@ -16,6 +16,8 @@ http://htmlbook.ru/css3-na-primerakh/lineinyi-gradient
 
 »нструмент создани€ готового кода:
 https://www.colorzilla.com/gradient-editor/
+
+http://fls.guru/cssbackground.html
 =======================================================
 background-position - «адает начальное положение фонового изображени€, установленного с помощью свойства background-image.
 =======================================================

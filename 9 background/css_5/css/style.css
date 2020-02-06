@@ -31,14 +31,26 @@ body{
 	background: url('../img/icons/li.svg') left 5px no-repeat;
 	padding: 0px 0px 0px 30px;
 }
-
-.block{
-	background: url('../img/avatar_3.jpg') 50%/100px no-repeat,
-	url('../img/avatar.jpg') 100px 20px/200px no-repeat,
-	url('../img/bg.jpg') 50%/cover no-repeat;
-
-	height: 500px;
-	border-radius: 15px;
+.big{
+	width: 100%;
+	height: 15vh;
+	position: relative;
 	box-shadow: 0 0 10px #000;
+	background: green;
 }
-
+.block{
+	overflow: hidden;
+	width: 100%;
+	height: 15vh;
+}
+.fon{
+	position: absolute;
+	width: inherit;
+	height: inherit;
+	/* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#ffffff+60,ffffff+60,ffffff+60,ffffff+94&0+59,1+93 */
+	background: -moz-linear-gradient(top,  rgba(255,255,255,0) 59%, rgba(255,255,255,0.03) 60%, rgba(255,255,255,1) 93%, rgba(255,255,255,1) 94%); /* FF3.6-15 */
+	background: -webkit-linear-gradient(top,  rgba(255,255,255,0) 59%,rgba(255,255,255,0.03) 60%,rgba(255,255,255,1) 93%,rgba(255,255,255,1) 94%); /* Chrome10-25,Safari5.1-6 */
+	background: linear-gradient(to bottom,  rgba(255,255,255,0) 59%,rgba(255,255,255,0.03) 60%,rgba(255,255,255,1) 93%,rgba(255,255,255,1) 94%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#00ffffff', endColorstr='#ffffff',GradientType=0 ); /* IE6-9 */
+	top: 0;
+}
