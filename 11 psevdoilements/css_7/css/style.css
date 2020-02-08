@@ -29,7 +29,7 @@ body{
 	color: green;
 }
 .text:first-letter{
-	color: red;
+	color: black;
 	font-size: 50px;
 }
 .list {}
@@ -40,15 +40,31 @@ body{
 }
 
 .list li:before{
-	content: '';
+	content: url(../img/icons/li.svg);
 	width: 10px;
 	height: 10px;
-	border-radius: 50%;
-	background-color: red;
 	display: inline-block;
 	margin: 0px 10px 0px 0px;
 }
 
 .list li:hover:before{
-	background-color: yellow;
+	color: yellow;
+}
+.button {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	width: 199px;
+	height: 44px;
+	box-shadow: 0 6px 40px rgba(128, 183, 179, 0.54);
+	border-radius: 20px;
+	background-color: #80b7b3;
+}
+.button:hover {
+	background-color: #3a5856;
+}
+.button:active{
+	background-color:#818181;
+}
+.img {
 }
